@@ -1,0 +1,23 @@
+{
+    "name": "consatan/pdaemon",
+    "description": "PHP Daemon, is not available on Windows platforms.",
+    "keywords": ["daemon", "cli"],
+    "type": "library",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Chopin Ngo",
+            "email": "consatan@gmail.com",
+            "homepage": "https://chopin.im"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-pcntl": "*",
+        "ext-posix": "*",
+        "ext-sysvsem": "*"
+    },
+    "autoload": {
+        "psr-4": {"Consatan\\PDaemon\\": "src/"}
+    }
+}
