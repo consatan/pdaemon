@@ -1,6 +1,6 @@
 {
     "name": "consatan/pdaemon",
-    "description": "PHP Daemon, is not available on Windows platforms.",
+    "description": "Running PHP script in daemon mode at CLI.",
     "keywords": ["daemon", "cli"],
     "type": "library",
     "license": "BSD 3-Clause",
